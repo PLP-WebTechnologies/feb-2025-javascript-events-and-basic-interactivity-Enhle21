@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>MBALI's Blush & Glow Studio</title>
+
+    <!-- link to css file-->
+    <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+
+        <!-- page title and welcome heading -->
+        <h1> 💖 WELCOME TO 🌸 MBALI's🌸  🎀💅BLUSH AND GLOW UP STUDIO💅🎀  </h1>
+
+        <!-- event buttons-->
+        <button id="clickBtn">Book Now!</button>  <!-- booking action-->
+        <button id="hoverBtn">Hover for Surprise!</button> <!-- hover reward-->
+        <input type="text" id="keypressInput" placeholder="Type something..." />
+        <button id="secretBtn">Secret Action</button> <!-- double - lick surprise-->
+
+    <!-- interactive elements-->
+     <!-- mood color box-->
+    <div id="colorBox">Tap to Reveal Mood Color 💗</div>
+
+    <!-- tabs for services -->
+    <div id="tabs">
+      <button class="tab" data-target="tab1">Nail Services</button>
+      <button class="tab" data-target="tab2">Facial Treatments</button>
+
+      <!-- hidden content that will show on tb click-->
+      <div id="tab1" class="tab-content">💅 Manicure, Acrylics, Gel Polish...</div>
+    <div id="tab2" class="tab-content">💆‍♀️ Deep Cleanse, Glow Facial, Massage...</div>
+  </div>
+
+  <!-- image gallery -->
+  <!-- Slideshow Container -->
+<div class="gallery">
+  <img id="galleryImg" src="img-1.png" alt="Slideshow Image" />
+  <div>
+    <button id="prevImg">⬅️ Previous</button>
+    <button id="nextImg">Next ➡️</button>
+  </div>
+</div>
+
+
+
+  <!-- form validation-->
+   <!-- booking form-->
+  <form id="signupForm">
+    <h2>📋 Book Your Appointment</h2>
+    <input type="text" id="name" placeholder="Full Name" required />
+    <input type="tel" id="phone" placeholder="Phone Number" required />
+    <input type="email" id="email" placeholder="Email Address" required />
+    <input type="typeofservice" placeholder="Service Type" required />
+    <input type="dateofappointment" placeholder="Date of Appointment" required />
+    <input type="password" id="password" placeholder="Create Password" required />
+    <button type="submit">Confirm Booking</button>
+
+    <!-- feedback messages (errors or success)-->
+    <p id="formFeedback"></p>
+  </form>
+
+<!-- link to your javascript file-->
+  <script src="script.js"></script>
+
+  <!-- footer section -->
+  <footer style="text-align: center; margin-top: 40px; padding: 20px; background-color: #ffe4e1;">
+    <p> &copy; 2025 MBALI's Blush & Glow Studio. All rights reserved.</p>
+  </footer>"
+</body>
+</html>
